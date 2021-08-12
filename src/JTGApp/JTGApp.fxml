@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: cadetblue;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JTGApp.Controller">
+    <Label id="resultDisplay" fx:id="resultDisplay" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="12.0" prefHeight="59.0" prefWidth="323.0" style="-fx-background-color: ivory; -fx-border-radius: 5 5 5 5; -fx-background-radius: 5 5 5 5; -fx-border-color: white;" text="" textAlignment="CENTER" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="12.0">
+        <font>
+            <Font name="Courier New" size="24.0" />
+        </font>
+        <padding>
+            <Insets top="2.0" />
+        </padding>
+    </Label>
+    <Region layoutY="82.0" prefHeight="118.0" prefWidth="350.0" style="-fx-background-color: mediumaquamarine;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="82.0" />
+    <JFXButton fx:id="convert" alignment="CENTER" contentDisplay="CENTER" layoutX="244.0" layoutY="124.0" prefHeight="35.0" prefWidth="72.0" ripplerFill="#37db89" style="-fx-background-color: cadetblue;" text="CONVERT" textAlignment="CENTER" textFill="#fffff2" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="244.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="124.0">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+    </JFXButton>
+    <TextField fx:id="txt_enter" alignment="CENTER_RIGHT" layoutX="29.0" layoutY="124.0" prefHeight="35.0" prefWidth="175.0" promptText="01/01/21 or 121001" style="-fx-background-color: ivory; -fx-border-radius: 5 5 5 5; -fx-border-color: white;" />
+    <Label layoutX="130.0" layoutY="107.0" text="ENTER DATE:" textFill="#fffff2">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+    </Label>
+</AnchorPane>
